@@ -7,7 +7,7 @@ import "./App.css"
 
  
 export const App = () => {
-  const endpoint = "https://devnet.helius-rpc.com/?api-key=e3bc982c-d95f-48b5-b388-f6fe1289d2d8"
+  const endpoint = "https://devnet.helius-rpc.com/?api-key=05b4260c-a67c-432f-9cef-158df5c25907"
   const wallets = useMemo(
     () => [
       new PhantomWalletAdapter(),
